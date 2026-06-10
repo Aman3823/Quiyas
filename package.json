@@ -1,0 +1,21 @@
+{
+  "name": "quiyas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsc && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1",
+    "@types/node": "^25.9.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4"
+  }
+}
